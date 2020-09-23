@@ -1,0 +1,29 @@
+@import url(banner.css);
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+ h1{
+	padding: 10px;
+	font-size: 40px;
+	background-color: orange;
+	font-family: cursive;
+	color: #fff;
+} 
+h2{
+	padding: 10px;
+	font-size: 40px
+	color:0,0,0,.3;
+	font-family: cursive;  
+}
+
+	@media (min-width: 72px) {
+	
+
+#banner h2{
+	float: right;
+	font-size: 10px;
+   }
+}
