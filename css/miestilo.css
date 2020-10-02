@@ -1,0 +1,42 @@
+#info{
+	text-align:center;
+	
+
+}
+#info.contenedor{
+	
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+.info-car{
+
+	margin:60px;
+}
+.info-car img{
+	width:200px;
+	height: 200px;
+	border-radius:50%;
+	border:6px solid #20c997;
+}
+.redes{
+	height: 200px;
+	background-color: #84acbf;
+	padding: 30px;
+}
+.redes h2{
+	font-family: gabriola;
+	text-align: center;
+	font-weight: bold; 
+}
+.sociales{
+	text-align: center;
+	padding-top:40px;
+	padding-bottom: 40px; 
+}
+.sociales li{
+	display: inline-block;
+}
+.sociales a{
+	padding:10px;
+}
